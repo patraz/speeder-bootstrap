@@ -1,0 +1,71 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/templates/small-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+#lg {
+	font-size: 1.2rem;
+}
+
+.bg-dark {
+    background-color: #0452C4!important;
+}
+
+.btn-zakupy {
+	background-color: #FF6400;
+	border-color: #FF6400;
+	transition: all 1s;
+}
+
+.btn-zakupy:hover {
+	transform: scale(1.1);
+	background-color: #FF8739;
+	border-color: #FF8739;
+}
+.dropdown_marki {
+	background-color: #0452C4;
+	border-color:#0452C4;
+	padding:7px 8px;
+	margin-right: 2px;
+}
+
+.dropdown_marki:hover {
+	background-color: #0452C4;
+	border-color:#0452C4;
+}
+
+.show>.btn-secondary.dropdown-toggle {
+	background-color: #0452C4;
+	border-color:#0452C4;
+}
+
+.card {
+	display:flex;
+}
+
+.loga {
+	width: 7rem;
+	height: 7rem;
+	margin: 5px 10px;
+}
+
+.bg-secondary {
+    background-color: #0452c4!important;
+    padding: 0px 0px;
+    height: 250px;
+}
+
+#card1 {
+	height: 700px;
+	width: 500px;
+	margin-top: 75px;
+}
+
+#card2 {
+	height: 700px;
+	width: 500px;
+}
