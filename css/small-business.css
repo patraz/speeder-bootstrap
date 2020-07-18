@@ -3,9 +3,19 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
  */
+
+html {
+	min-height:100%
+}
+
 body {
   padding-top: 56px;
 }
+
+footer {
+	margin-top: 2px;
+}
+
 
 #lg {
 	font-size: 1.2rem;
@@ -19,6 +29,7 @@ body {
 	background-color: #FF6400;
 	border-color: #FF6400;
 	transition: all 1s;
+	margin-top: 17px;
 }
 
 .btn-zakupy:hover {
@@ -48,8 +59,8 @@ body {
 }
 
 .loga {
-	width: 7rem;
-	height: 7rem;
+	width: 6rem;
+	height: 6rem;
 	margin: 5px 10px;
 }
 
@@ -60,12 +71,53 @@ body {
 }
 
 #card1 {
-	height: 700px;
-	width: 500px;
-	margin-top: 75px;
+	width: 100%;
+	height: auto;
+}
+#card2 {
+	width: 100%;
+	height: auto;
 }
 
-#card2 {
-	height: 700px;
-	width: 500px;
+.szerokosc {
+	margin: 0px auto;
+}
+
+.r_marki {
+	height: auto;
+}
+ul {
+	display:flex;
+	padding: 0px;
+}
+
+li {
+	margin: 0px 5px;
+	list-style: none;
+}
+
+.card-text {
+	display:table;
+}
+
+.catalogs {
+	margin: 0px auto;
+
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+#kontakt {
+	text-align: center;
+}
+
+.kontakt_wazne {
+	font-weight: bold;
+}
+
+.nav-link {
+	width: 100%;
+	text-align: left;
 }
